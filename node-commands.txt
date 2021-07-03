@@ -1,0 +1,4 @@
+1. to check node version : node -v / node --version
+2. to check npm version : npm -v / npm --version
+3. initialize node repo with packaje.json : npm init 
+4. create package.json by skipping default steps : npm init -y 
