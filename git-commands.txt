@@ -1,5 +1,5 @@
 1. git init - To initialize the repository 
-2. git remote add origin https://github.com/UmamaheshMaxwell/git-basic-master.git - Connect your local repository to remote repository
+2. git remote add origin https://github.com/UmamaheshMaxwell/node-super-advanced.git - Connect your local repository to remote repository
 3. git status - To check the status of the files to see if they are created /modified
 4. git diff - to see the changes made to the files
 4. git add filename - To add file to local git repository 
