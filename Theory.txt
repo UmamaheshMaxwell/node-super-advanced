@@ -30,3 +30,30 @@ Process Object
 --------------
 Each Nodejs script runs in a process. 
 It includes process object to get all the information about the current process of Node.JS application
+
+//console.log(process)
+console.log(process.pid)
+console.log(process.execPath)
+console.log(process.cwd())
+
+
+
+Module Types
+--------------
+1. core Modules - http, url, querystring, path etc.. 
+
+    const http = require('http')
+    console.log(http)
+
+2. Local Modules - using other files
+3. Third Party Modules
+
+module.exports
+--------------
+Thi is a special object which is included in every javascript file in the 
+nodejs application be default 
+
+module - It is a variable that represents the current module 
+exports - object that will be exposed as  module
+
+What ever we assign to module.exports will be exposed as Module 
